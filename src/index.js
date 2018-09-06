@@ -1,7 +1,11 @@
 import HelloWorld from './components/HelloWorld.vue';
 
-export default {
+const NovaVue = {
   install(Vue) {
-    Vue.component('HelloWorld', HelloWorld);
+    Vue.component('hello-world', HelloWorld);
   },
 };
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(NovaVue);
+}
+export default NovaVue;

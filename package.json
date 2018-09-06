@@ -5,7 +5,7 @@
   "main":"dist/nova-vue-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue build --target lib --name nova-vue-components src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
