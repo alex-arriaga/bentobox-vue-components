@@ -2,7 +2,7 @@
   "name": "nova-vue-components",
   "version": "0.1.0",
   "private": true,
-  "main":"dist/nova-vue-components.common.js",
+  "main": "dist/nova-vue-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue build --target lib --name nova-vue-components src/index.js",
@@ -16,6 +16,7 @@
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "@vue/eslint-config-airbnb": "^3.0.1",
+    "copy-webpack-plugin": "^4.5.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.17"
