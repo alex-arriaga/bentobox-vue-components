@@ -1,11 +1,11 @@
 {
-  "name": "nova-vue-components",
+  "name": "bentobox-vue-components",
   "version": "0.1.0",
   "private": true,
-  "main": "dist/nova-vue-components.common.js",
+  "main": "dist/bentobox-vue-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue build --target lib --name nova-vue-components src/index.js",
+    "build": "vue build --target lib --name bentobox-vue-components src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

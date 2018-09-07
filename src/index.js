@@ -1,4 +1,4 @@
-import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld from './components/hello-world/HelloWorld.vue';
 
 const NovaVue = {
   install(Vue) {

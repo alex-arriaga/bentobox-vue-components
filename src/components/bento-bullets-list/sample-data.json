@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "title": "Bullets List",
+    "showSummary": true
+  },
+  "data": {
+    "items": [
+      {
+        "id": "uuid-1",
+        "title": "Title #1",
+        "summary": "Summary #1"
+      }
+    ]
+  }
+}

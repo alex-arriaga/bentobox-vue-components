@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
+    <div class="hello">
+        <h1>{{ msg }}</h1>
+    </div>
 </template>
 
 <script>
@@ -15,7 +15,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h1 {
-  color: blue;
-}
+    h1 {
+        color: green;
+        font-size: 3em;
+    }
 </style>
